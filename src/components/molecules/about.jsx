@@ -13,7 +13,7 @@ const About = () => {
         <p className="text-[18px] py-2 text-white">
           At The Void Academy, we exist at the intersection of cutting-edge Web3
           technology and boundless learning opportunities. As pioneers in the
-          realm of digital education, we've harnessed the power of the void,
+          realm of digital education, we have harnessed the power of the void,
           creating a space where knowledge knows no bounds
         </p>
       </div>
