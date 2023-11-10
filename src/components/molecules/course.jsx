@@ -1,6 +1,6 @@
 import React from "react";
 import "../style.css";
-import { Button } from "../atoms/button";
+import { ButtonS } from "../atoms/button";
 import { MdCheck } from "react-icons/md";
 import CourseGrid from "./courseGrid";
 
@@ -16,7 +16,7 @@ const Course = () => {
         </p>
       </div>
       <CourseGrid />
-      <Button label="Enroll Now" />
+      <ButtonS label="Enroll Now" />
     </div>
   );
 };

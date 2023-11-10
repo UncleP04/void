@@ -80,7 +80,7 @@ const CourseGrid = () => {
               alt="image.png"
               width={700}
               height={300}
-              className="w-[100%] h-[100%]"
+              className="w-[100%] h-[100%] hover:scale-125 transition-all"
             />
             <div className="p-4 gridDiv text-center z-20 absolute bottom-0 left-0">
               <h2 className="text-white text-[15px]">{itemOne.text}</h2>
@@ -94,7 +94,7 @@ const CourseGrid = () => {
         alt="image.png"
         width={700}
         height={300}
-        className="w-[10px] h-[100%] hidden md:block"
+        className="w-[10px] h-[100%] hidden md:block hover:scale-125 transition-all"
       />
       <div className="flex flex-col justify-center items-center gap-10">
         {listTwo.map((itemTwo, i) => (
@@ -107,7 +107,7 @@ const CourseGrid = () => {
               alt="image.png"
               width={700}
               height={300}
-              className="w-[100%] h-[100%]"
+              className="w-[100%] h-[100%] hover:scale-125 transition-all"
             />
             <div className="p-4 gridDiv text-center z-20 absolute bottom-0 left-0">
               <h2 className="text-white text-[15px]">{itemTwo.text}</h2>

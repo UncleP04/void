@@ -1,6 +1,6 @@
 import React from "react";
 import '../style.css';
-import { Button } from "../atoms/button";
+import { ButtonS } from "../atoms/button";
 import { MdCheck } from "react-icons/md";
 
 const Introduction = () => {
@@ -15,7 +15,7 @@ const Introduction = () => {
                     <li className="text-slate-300 py-1 flex justify-start items-start text-start self-start"><MdCheck size={30} className="text-primary"/>Unlock the Secrets of High-Paying Jobs and Fulfilling Employment</li>
                     <li className="text-slate-300 py-1 flex justify-start items-start text-start self-start"><MdCheck size={30} className="text-primary"/>You are removing Financial Blocks</li>
                 </ul>
-                <Button label="Enroll Now"/>
+                <ButtonS label="Enroll Now"/>
             </div>
         </div>
     )
