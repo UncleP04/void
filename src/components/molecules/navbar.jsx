@@ -53,9 +53,9 @@ const Navbar = () => {
             </Link>
 
             <Link
-              href="/notFound"
+              href="/void"
               className={`font-medium links ${
-                isActive("/notFound") ? "text-black" : ""
+                isActive("/void") ? "text-black" : ""
               }`}
             >
               Courses

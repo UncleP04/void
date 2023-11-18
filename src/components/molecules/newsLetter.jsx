@@ -1,4 +1,5 @@
 import React from "react";
+import '../style.css';
 
 const NewLetter = () => {
   const letter = [
@@ -36,7 +37,7 @@ const NewLetter = () => {
   ];
 
   return (
-    <div>
+    <div className="scrollbar overflow-hidden overflow-y-auto">
       <h1 className="text-white text-[2.1em] pb-5">Newsletter Content</h1>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
         {letter.map((letters, i) => (

@@ -3,10 +3,10 @@ import React, { useState } from "react";
 import { ButtonS } from "../atoms/button";
 import { MdNewspaper } from "react-icons/md";
 import Box from "@mui/material/Box";
-import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import NewLetter from "./newsLetter";
+import '../style.css'
 
 const style = {
     position: 'absolute',
@@ -77,7 +77,7 @@ const Letters = () => {
           aria-labelledby="modal-modal-title"
           aria-describedby="modal-modal-description"
         >
-          <Box sx={style}>
+          <Box sx={style} className="scrollbar">
             <Typography id="modal-modal-description" sx={{ mt: 2 }}>
               <NewLetter />
             </Typography>

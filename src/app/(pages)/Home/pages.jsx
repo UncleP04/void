@@ -5,6 +5,7 @@ import About from "@/components/molecules/about";
 import Course from "@/components/molecules/course";
 import Letters from "@/components/molecules/letters";
 import Testimonals from "@/components/molecules/testimonals";
+import Access from "@/components/molecules/access";
 
 const Landing = () => {
   return (
@@ -15,6 +16,7 @@ const Landing = () => {
       <Course />
       <Letters />
       <Testimonals />
+      <Access />
    </div>
   )
 }
