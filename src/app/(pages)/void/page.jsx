@@ -7,21 +7,18 @@ import Payment from "@/../../public/Image/payment.png";
 import Image from "next/image";
 import Testimonals from "@/components/molecules/testimonals";
 import Connect from "@/components/molecules/void/connect";
+import Navbar from "@/components/molecules/navbar";
+import GirdLayout from "@/components/molecules/void/girdLayout";
 
 const Void = () => {
   return (
     <div className="w-[100%] h-screen bg-black">
-      <div className="w-[100%] text-start flex flex-row justify-between items-center p-4 bg-black">
-        <button className="py-2 px-4 bg-slate-900 text-white rounded-md">
-          VOID 2.0
-        </button>
-        <div className="hidden md:block">
-          <ButtonS label="Enroll Now" />
-        </div>
+      <div className="w-[100%]">
+        <Navbar />
       </div>
       <Intro />
       <div className="bg-[#040405]">
-        <CourseGrid />
+        <GirdLayout />
       </div>
       <div className="w-[100%] bg-black flex flex-col justify-center items-center text-center pt-12">
         <h1 className="text-[2em] font-semibold uppercase text-white">

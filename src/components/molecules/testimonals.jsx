@@ -47,7 +47,7 @@ const Testimonals = () => {
         </p>
       </div>
       <div
-        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 w-[100%] h-[400px] overflow-y-auto scrollbar"
+        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 w-[100%] overflow-y-auto scrollbar h-[100svh]"
         style={{
           scrollbarWidth: "thin",
           scrollbarColor: "transparent transparent",

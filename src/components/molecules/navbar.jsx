@@ -7,6 +7,7 @@ import "../style.css";
 import Image from "next/image";
 import Logo from "../../../public/Image/logo.png";
 import { MdMenu } from 'react-icons/md'
+import { ButtonS } from "../atoms/button";
 
 const Navbar = () => {
   const router = useRouter();
@@ -33,7 +34,7 @@ const Navbar = () => {
           />
         </Link>
         <div className={`${show ? 'block' : "hidden lg:flex"} responsive`}>
-          <ul className="flex lg:space-x-[30px] flex-col lg:flex-row text-center self-center">
+          <ul className="flex lg:space-x-[30px] flex-col lg:flex-row text-center self-center justify-between items-center">
             <Link
               href="/notFound"
               className={`font-medium links ${
@@ -76,6 +77,7 @@ const Navbar = () => {
             >
               Community
             </Link>
+          <ButtonS label="Enroll Now" />
           </ul>
         </div>
         <button onClick={handleShow} className="mx-8 w-[30px] h-[30px] fixed lg:relative top-3 right-3 lg:hidden z-30">
