@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <div>
       <nav className="flex justify-between items-center py-4 shadow-md bg-transparent z-10 px-[5%] sticky top-0 left-0 w-[100%]">
-        <Link href="/" className="font-bold text-black self-start">
+        <Link href="/void" className="font-bold text-black self-start">
           <Image
             src={Logo}
             alt="logo.png"
@@ -36,18 +36,18 @@ const Navbar = () => {
         <div className={`${show ? 'block' : "hidden lg:flex"} responsive`}>
           <ul className="flex lg:space-x-[30px] flex-col lg:flex-row text-center self-center justify-between items-center">
             <Link
-              href="/notFound"
+              href="/void"
               className={`font-medium links ${
-                isActive("/notFound") ? "text-black" : ""
+                isActive("/void") ? "text-black" : ""
               }`}
             >
               Home
             </Link>
 
             <Link
-              href="/notFound"
+              href="/void"
               className={`font-medium links ${
-                isActive("/notFound") ? "text-black" : ""
+                isActive("/void") ? "text-black" : ""
               }`}
             >
               About
@@ -62,17 +62,17 @@ const Navbar = () => {
               Courses
             </Link>
             <Link
-              href="/notFound"
+              href="/void"
               className={`font-medium links ${
-                isActive("/notFound") ? "text-black" : ""
+                isActive("/void") ? "text-black" : ""
               }`}
             >
               NewsLetters
             </Link>
             <Link
-              href="/notFound"
+              href="/void"
               className={`font-medium links ${
-                isActive("/notFound") ? "text-black" : ""
+                isActive("/void") ? "text-black" : ""
               }`}
             >
               Community

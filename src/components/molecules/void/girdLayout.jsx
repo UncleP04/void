@@ -102,10 +102,15 @@ const GirdLayout = () => {
                   index === hoveredIndex ? "top-[0]" : "top-[280px]"
                 } text-white text-[18px] absolute bg-[#000000ec] w-[100%] left-0 h-[100%] text-center flex justify-start items-center p-4 transition-all`}
               >
-                <ul className="flex flex-col justify-start items-center gap-4">
-                  <li className="text-start">{offers.paragraph1}</li>
-                  <li className="text-start">{offers.paragraph2}</li>
-                </ul>
+                <div>
+                  <span className="text-white bg-[#000000ec] w-[50px] h-[50px] rounded-full absolute top-[-20px] left-[40%]">
+                    &#9650;
+                  </span>
+                  <ul className="flex flex-col justify-start items-center gap-4 relative">
+                    <li className="text-start">{offers.paragraph1}</li>
+                    <li className="text-start">{offers.paragraph2}</li>
+                  </ul>
+                </div>
               </div>
             </div>
           ))}
