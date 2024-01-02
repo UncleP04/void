@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Void from './(pages)/Void/page'
+import Void from '../app/(pages)/void/page'
 
 export default function Home() {
   return (
